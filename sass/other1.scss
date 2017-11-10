@@ -1,0 +1,42 @@
+
+#cnt{
+    table{
+        tr{ 
+            td{
+                padding-top: 1px;
+                padding-right: 1px;
+            }
+            .tdhover{
+                position:relative;
+                div{
+                    position:absolute;
+                    bottom:0;
+                    right:0;
+                    width:100%;
+                    background:url(../img/opacity.png);
+                    text-align: center;
+                    display: none;
+                    span,strike{
+                        display: block;
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 15px;
+                        padding:7px 5px 3px 5px;
+                    }
+                    strike{
+                        color: #33b0f0;
+                    }
+                }
+            }
+        }
+    }
+    .word{
+        margin-top: 50px;
+        a{
+            img{
+                float:left;
+            }            
+        }
+
+    }
+}
