@@ -22,6 +22,10 @@ $("#leftAside .h37").css({"backgroundImage":"url("+data[13].even+")"});
 $("#leftAside .leftmei img").attr({src:data[14].leftb1});
 $("#leftAside .left7zhe img").attr({src:data[15].leftb2});
 $("#fixedTop .logo").css({"backgroundImage":"url("+data[16].toplogo+")"});
+$("#contect_bar .tuijian").css({"backgroundImage":"url("+data[17].tuijian+")"});
+$("#rightAside_c .tuijian").css({"backgroundImage":"url("+data[17].tuijian+")"});
+$("#contect_bar .keyu").css({"backgroundImage":"url("+data[18].mang+")"});
+$(".bottomImg").attr({src:data[19].bottomImg});
 		},
 		error:function(data){
 			console.log("获取失败");
@@ -32,15 +36,3 @@ $("#fixedTop .logo").css({"backgroundImage":"url("+data[16].toplogo+")"});
 //rightp  免税广告   红色new（会动）  （评论赢积分、明星赞助、专题&活动、视频画报、代理政策）  左边导航   左导航下第一张图片  第二张图片  
 
 
-	//			console.log(data[logo]);
-//			
-/*	function(data){
-		$("#logo").css({"background":"url("+data[logo]+") no-repeat"});
-		$("top_nav").css({"background":"url("+data[plane]+") no-repeat"});
-		$("top_nav li").css({"background":"url("+data[logo]+") no-repeat"});		
-		$(".reg").css({"background":"url("+data[regicon]+") no-repeat"});
-
-		$("top_nav li").css({"backgroundImages":"url("+data[logo]+")"});
-		$("top_nav li").css({"backgroundImages":"url("+data[logo]+")"});
-		
-	}*/
