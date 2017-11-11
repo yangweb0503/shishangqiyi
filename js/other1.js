@@ -1,6 +1,8 @@
 
 
 $(function(){
+
+	
 	$.ajax({
 	type:"get",
 	url:"../json/word.json",
@@ -21,6 +23,16 @@ $(function(){
 				var obj = data[n];
 				var str = obj.img[1].src;
 				$(this).attr({src:str});
+			});
+			$("table a").each(function(n){
+				var num = data[n].img[0].id;
+				var aurl = ""
+				if(num>80){
+					aurl = "list.html?id=" + num;
+				}else{
+					aurl = "produce.html?id=" + num;
+				}
+				$(this).attr({href:aurl});
 			});
 		}
 	});
@@ -46,8 +58,13 @@ $(function(){
 			});
 		}
 	});
+
+
+	$("table .tdhover").hover(function(){
+		$(this).find("div").css({"display":"block"});
+	},function(){
+		$(this).find("div").css({"display":"none"});
+	})
 	
-	
-	
-	
+
 });

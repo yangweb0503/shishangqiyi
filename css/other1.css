@@ -23,5 +23,41 @@
   margin-top: 50px; }
   #cnt .word a img {
     float: left; }
+#cnt .list_title {
+  font-family: 'Exo 2',sans-serif;
+  color: #818181;
+  font-size: 22px;
+  letter-spacing: -0.2pt;
+  font-weight: 400;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  padding: 40px 0 8px 0; }
+#cnt .saleList {
+  width: 1146px;
+  margin-bottom: 40px; }
+  #cnt .saleList li {
+    float: left;
+    width: 286px;
+    height: 440px;
+    padding: 0;
+    margin: 22px 0; }
+    #cnt .saleList li img {
+      margin-bottom: 14px; }
+    #cnt .saleList li a {
+      display: block;
+      width: 100%;
+      margin-bottom: 11px;
+      font-size: 12px; }
+      #cnt .saleList li a:hover {
+        color: #f36;
+        text-decoration: underline; }
+    #cnt .saleList li .namec {
+      color: #999; }
+    #cnt .saleList li .namee {
+      color: #000;
+      font-family: 'Exo 2',sans-serif; }
+    #cnt .saleList li span {
+      color: #fe7200; }
 
 /*# sourceMappingURL=other1.css.map */
