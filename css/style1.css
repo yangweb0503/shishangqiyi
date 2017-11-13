@@ -157,7 +157,9 @@ body {
     right: 100px;
     top: 126px;
     z-index: 9;
-    display: none; }
+    display: block; 
+    display: none;
+    }
     #content #mianshui div {
       background: #666666;
       color: #fff;
@@ -403,6 +405,7 @@ body {
 #fixedTop {
   left: 0;
   position: fixed;
+  z-index: 2;
   width: 100%;
   min-width: 1261px;
   top: 0;

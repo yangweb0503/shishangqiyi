@@ -107,6 +107,8 @@ $(".bottomImg").attr({src:data[19].bottomImg});
 		$('html,body').animate({scrollTop:"0px"},300);
 	});
 	
+	
+	
 	setTimeout(function(){
 		var str = $("#content").css("height");
 		$("#leftAside").css({"height":str});
