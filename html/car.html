@@ -8,13 +8,15 @@
 		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
 
 		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../js/zi.js" type="text/javascript" charset="utf-8"></script>
-		
+
+		<!--<script src="../js/commin.js" type="text/javascript" charset="utf-8"></script>-->
+
+
 	</head>
 
 	<body>
 		<div id="header">
-			<h1 id="logo"><a href="" class="clearfix"></a></h1>
+			<h1 id="logo"><a href="home.html" class="clearfix"></a></h1>
 			<ul id="top_nav" class="clearfix">
 				<li class="women">
 					<a href=""></a>
@@ -28,11 +30,11 @@
 			</ul>
 			<ul id="user_msg" class="clearfix">
 				<li id="login">
-					<a href="">登录</a><span> /</span>
-					<a href="" class="reg">注册有礼</a>
+					<a href="javascript:;" class="login">登录</a><span> /</span>
+					<a href="javascript:;" class="reg">注册有礼</a>
 				</li>
 				<li id="car">
-					<a href="">购物车(<b>0</b>)</a>
+					<a href="car.html">购物车(<b class="car_num">0</b>)</a>
 				</li>
 				<li id="collect">
 					<a href="">暂存架(<b>0</b>)</a>
@@ -61,11 +63,11 @@
 					<li class="rightLogin">
 						<ul>
 							<li class="border_b">
-								<a href="">登录 /</a>
-								<a href="">注册</a>
+								<a href="javascript:;" class="login">登录 /</a>
+								<a href="javascript:;" class="reg">注册</a>
 							</li>
 							<li class="border_b rightcar">
-								<a href="">购物车(0)</a>
+								<a href="car.html">购物车(<b class="car_num">0</b>)</a>
 							</li>
 							<li class="border_b zancun">
 								<a href="">暂存架(0)</a>
@@ -217,7 +219,7 @@
 					<h1>购物车</h1>
 					<div class="login_tip">
 						<strong>温馨提示</strong>亲爱的顾客，您还没有
-						<a href="javascript:;">登录</a>
+						<a href="javascript:;" class="login">登录</a>
 						哦，商品优惠价以登录后显示为准哦~
 					</div>
 					<div id="car_cnt">
@@ -229,9 +231,9 @@
 							<div class="goods_sum">小计</div>
 						</div>
 						<ul class="car_body">
-							<li>
+							
 								<div class="car_no">暂无商品信息</div>
-							</li>
+							
 							
 						</ul>
 					</div>
@@ -272,7 +274,7 @@
 						
 						
 					</div>
-					<div id="step_select clearfix">
+					<div id="step_select" class="clearfix">
 							<a href="javascript:;" id="go_buy">马上结算</a>
 							<a href="home.html" id="go_home">返回首页</a>
 					</div>
@@ -388,12 +390,7 @@
 						<a href="javascript:;">
 							<img src="http://img3.essxd.com/kr_2016/images/bottom/quality.jpg" alt="" />
 						</a>
-						
-						
-						
-						
-						
-						
+
 						
 					</div>
 
@@ -404,6 +401,9 @@
 			
 		</script>
 		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/car.js" type="text/javascript" charset="utf-8"></script>
+				<script src="../js/zi.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

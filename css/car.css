@@ -23,6 +23,8 @@
       font-size: 14px;
       padding: 0 5px; }
 
+#car_cnt div {
+  font-size: 14px; }
 #car_cnt .car_title {
   border-top: #e6e6e6 1px solid;
   border-bottom: #e6e6e6 1px solid; }
@@ -34,23 +36,105 @@
     font-weight: bold;
     text-align: center;
     float: left; }
-  #car_cnt .car_title .goods_detail {
-    width: 405px; }
-  #car_cnt .car_title .goods_price {
-    width: 230px; }
-  #car_cnt .car_title .goods_emoney {
-    width: 135px; }
-  #car_cnt .car_title .goods_qty {
-    width: 170px; }
-  #car_cnt .car_title .goods_sum {
-    width: 160px; }
-#car_cnt .car_body li .car_no {
+#car_cnt .goods_detail {
+  height: 135px;
+  float: left;
+  width: 405px; }
+  #car_cnt .goods_detail .goods_title {
+    width: 220px;
+    height: 135px;
+    margin-left: 15px;
+    float: left;
+    font-size: 13px; }
+#car_cnt .table_body {
+  display: table; }
+#car_cnt .table_cell {
+  vertical-align: middle;
+  display: table-cell; }
+#car_cnt .goods_price,
+#car_cnt .goods_emoney,
+#car_cnt .goods_qty {
+  height: 135px;
+  text-align: center;
+  color: #999;
+  float: left; }
+  #car_cnt .goods_price p,
+  #car_cnt .goods_emoney p,
+  #car_cnt .goods_qty p {
+    padding: 0 40px; }
+    #car_cnt .goods_price p a,
+    #car_cnt .goods_emoney p a,
+    #car_cnt .goods_qty p a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background: url(../img/qty_sprite2.png);
+      float: left; }
+    #car_cnt .goods_price p .add,
+    #car_cnt .goods_emoney p .add,
+    #car_cnt .goods_qty p .add {
+      background-position: 0 -30px; }
+    #car_cnt .goods_price p input,
+    #car_cnt .goods_emoney p input,
+    #car_cnt .goods_qty p input {
+      width: 28px;
+      text-align: center;
+      border: #e2e2e2 1px solid;
+      height: 28px;
+      line-height: 28px;
+      color: #999;
+      float: left; }
+#car_cnt .goods_price {
+  width: 230px; }
+#car_cnt .goods_emoney {
+  width: 120px;
+  line-height: 135px; }
+#car_cnt .goods_qty {
+  width: 170px; }
+#car_cnt .goods_sum {
+  height: 135px;
+  text-align: center;
+  float: left;
+  width: 160px; }
+
+.car_body li .car_no {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
   margin: 20px auto;
   height: 32px;
   line-height: 32px; }
+.car_body li .goods_detail input {
+  margin: 65px 55px 0 12px;
+  display: block;
+  float: left; }
+.car_body li .goods_detail a img {
+  width: 86px;
+  height: 112px;
+  margin-top: 12px;
+  display: block;
+  float: left; }
+.car_body li .goods_detail .goods_title p {
+  line-height: 18px;
+  color: #999; }
+  .car_body li .goods_detail .goods_title p em {
+    color: #000;
+    font-style: normal; }
+  .car_body li .goods_detail .goods_title p span {
+    line-height: 18px;
+    color: #999; }
+  .car_body li .goods_detail .goods_title p a {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: #e2e2e2 1px solid;
+    background: url(../img/handle_sprite.png); }
+  .car_body li .goods_detail .goods_title p .cart_fav {
+    background-position: 0 -28px;
+    margin-left: 5px; }
+  .car_body li .goods_detail .goods_title p .cart_del {
+    background-position: 0 -56px;
+    margin-left: 5px; }
 
 #car_result {
   background: #f4f4f4;
@@ -65,11 +149,11 @@
       cursor: default; }
       #car_result .checkall label input {
         margin: 8px 20px 0 20px; }
-        #car_result .checkall label input a {
-          font-size: 14px;
-          margin-right: 20px;
-          font-weight: bold;
-          color: #6f6f6f; }
+    #car_result .checkall a {
+      font-size: 14px;
+      margin-right: 20px;
+      font-weight: bold;
+      color: #6f6f6f; }
   #car_result .result_main {
     margin: 20px 0 30px 0;
     float: right;
@@ -100,5 +184,23 @@
         font-weight: bold;
         font-size: 16px;
         margin-left: 8px; }
+
+#step_select {
+  margin: 20px 0 100px 0; }
+  #step_select a {
+    float: right;
+    display: block;
+    border: #e2e2e2 1px solid;
+    width: 198px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    color: #FFF;
+    font-size: 16px; }
+  #step_select #go_buy {
+    background: #3e3e3e;
+    margin-left: 10px; }
+  #step_select #go_home {
+    background: #aeaeae; }
 
 /*# sourceMappingURL=car.css.map */

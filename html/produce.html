@@ -26,11 +26,11 @@
 			</ul>
 			<ul id="user_msg" class="clearfix">
 				<li id="login">
-					<a href="">登录</a><span> /</span>
-					<a href="" class="reg">注册有礼</a>
+					<a href="javascript:;" class="login">登录</a><span> /</span>
+					<a href="javsscript:;" class="reg">注册有礼</a>
 				</li>
 				<li id="car">
-					<a href="">购物车(<b>0</b>)</a>
+					<a href="car.html">购物车(<b class="car_num">0</b>)</a>
 				</li>
 				<li id="collect">
 					<a href="">暂存架(<b>0</b>)</a>
@@ -59,11 +59,11 @@
 					<li class="rightLogin">
 						<ul>
 							<li class="border_b">
-								<a href="">登录 /</a>
-								<a href="">注册</a>
+								<a href="javascript:;" class="login">登录 /</a>
+								<a href="javascript:;" class="reg">注册</a>
 							</li>
 							<li class="border_b rightcar">
-								<a href="">购物车(0)</a>
+								<a href="">购物车(<b class="car_num">0</b>)</a>
 							</li>
 							<li class="border_b zancun">
 								<a href="">暂存架(0)</a>
@@ -244,7 +244,7 @@
 						<div class="good_size clearfix">
 							<div class="sell_title">尺寸:</div>
 							<div class="sell_content">
-								<select name="gcolor" id="gcolor">
+								<select name="gcolor" id="gsize">
 									<option value="" selected>请选择尺寸</option>
 								</select>
 							</div>
@@ -442,6 +442,8 @@
 
 		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/zi.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/car.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

@@ -58,7 +58,17 @@ $(".bottomImg").attr({src:data[19].bottomImg});
 			});
 		}
 	});
+	
+	if($.cookie("car")){
+		var obj = JSON.parse($.cookie("car"));
+		var nums = 0;
+		for(var i in obj){
 
+			nums += Number(obj[i][0]);
+		}
+		$(".car_num").text(nums);
+	}
+	
 
 	$("#rightAside_c .saoma a").hover(function() {
 		$("#rightAside_c .erweima").css({ "display": "block" });
