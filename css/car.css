@@ -1,0 +1,104 @@
+#car_warp {
+  margin: 0 auto;
+  width: 1100px;
+  overflow: hidden;
+  padding-top: 126px;
+  min-height: 1200px; }
+  #car_warp h1 {
+    margin: 70px 0 30px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 26px;
+    text-align: center; }
+  #car_warp .login_tip {
+    border-top: #e6e6e6 1px solid;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 15px;
+    font-size: 14px;
+    background: #f4f4f4;
+    color: #6f6f6f; }
+    #car_warp .login_tip a {
+      color: #f00;
+      font-size: 14px;
+      padding: 0 5px; }
+
+#car_cnt .car_title {
+  border-top: #e6e6e6 1px solid;
+  border-bottom: #e6e6e6 1px solid; }
+  #car_cnt .car_title div {
+    height: 35px;
+    line-height: 35px;
+    color: #6f6f6f;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    float: left; }
+  #car_cnt .car_title .goods_detail {
+    width: 405px; }
+  #car_cnt .car_title .goods_price {
+    width: 230px; }
+  #car_cnt .car_title .goods_emoney {
+    width: 135px; }
+  #car_cnt .car_title .goods_qty {
+    width: 170px; }
+  #car_cnt .car_title .goods_sum {
+    width: 160px; }
+#car_cnt .car_body li .car_no {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 20px auto;
+  height: 32px;
+  line-height: 32px; }
+
+#car_result {
+  background: #f4f4f4;
+  border-bottom: #e6e6e6 dashed 1px;
+  overflow: hidden; }
+  #car_result .checkall {
+    line-height: 30px;
+    float: left;
+    width: 400px;
+    margin-top: 12px; }
+    #car_result .checkall label {
+      cursor: default; }
+      #car_result .checkall label input {
+        margin: 8px 20px 0 20px; }
+        #car_result .checkall label input a {
+          font-size: 14px;
+          margin-right: 20px;
+          font-weight: bold;
+          color: #6f6f6f; }
+  #car_result .result_main {
+    margin: 20px 0 30px 0;
+    float: right;
+    width: 350px; }
+    #car_result .result_main div .sign {
+      width: 20px;
+      float: left;
+      height: 36px;
+      line-height: 36px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #6f6f6f; }
+    #car_result .result_main div .result_title {
+      width: 220px;
+      float: left;
+      height: 36px;
+      line-height: 36px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #6f6f6f; }
+    #car_result .result_main div .result_detail {
+      width: 110px;
+      float: left;
+      height: 36px;
+      line-height: 36px;
+      font-size: 13px; }
+      #car_result .result_main div .result_detail span {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 8px; }
+
+/*# sourceMappingURL=car.css.map */

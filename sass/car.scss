@@ -1,0 +1,155 @@
+#car_warp {
+    margin: 0 auto;
+    width: 1100px;
+    overflow: hidden;
+    padding-top: 126px;
+    min-height: 1200px;
+    h1 {
+        margin: 70px 0 30px 0;
+        height: 40px;
+        line-height: 40px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .login_tip {
+        border-top: #e6e6e6 1px solid;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 15px;
+        font-size: 14px;
+        background: #f4f4f4;
+        color: #6f6f6f;
+        a {
+            color: #f00;
+            font-size: 14px;
+            padding: 0 5px;
+        }
+    }
+}
+
+#car_cnt {
+    .car_title {
+        border-top: #e6e6e6 1px solid;
+        border-bottom: #e6e6e6 1px solid;
+        div {
+            height: 35px;
+            line-height: 35px;
+            color: #6f6f6f;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            float: left;
+        }
+        .goods_detail {
+            width: 405px;
+        }
+        .goods_price {
+            width: 230px;
+        }
+        .goods_emoney {
+            width: 135px;
+        }
+        .goods_qty {
+            width: 170px;
+        }
+        .goods_sum {
+            width: 160px;
+        }
+    }
+    .car_body {
+        li {
+            .car_no {
+                text-align: center;
+                font-weight: bold;
+                font-size: 14px;
+                margin: 20px auto;
+                height: 32px;
+                line-height: 32px;
+            }
+        }
+    }
+}
+
+#car_result {
+    background: #f4f4f4;
+    border-bottom: #e6e6e6 dashed 1px;
+    overflow: hidden;
+    .checkall {
+        line-height: 30px;
+        float: left;
+        width: 400px;
+        margin-top: 12px;
+        label {
+            cursor: default;
+            input {
+                margin: 8px 20px 0 20px;
+            }
+        }
+        a{
+            font-size: 14px;
+            margin-right: 20px;
+            font-weight: bold;
+            color: #6f6f6f;
+        }
+    }
+    .result_main {
+        margin: 20px 0 30px 0;
+        float: right;
+        width: 350px;
+        div {
+            .sign {
+                width: 20px;
+                float: left;
+                height: 36px;
+                line-height: 36px;
+                font-weight: bold;
+                font-size: 14px;
+                color: #6f6f6f;
+            }
+            .result_title {
+                width: 220px;
+                float: left;
+                height: 36px;
+                line-height: 36px;
+                font-weight: bold;
+                font-size: 14px;
+                color: #6f6f6f;
+            }
+            .result_detail {
+                width: 110px;
+                float: left;
+                height: 36px;
+                line-height: 36px;
+                font-size: 13px;
+                span {
+                    font-weight: bold;
+                    font-size: 16px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+   
+}
+
+ #step_select{
+        margin: 20px 0 100px 0;
+        a {
+            float: right;
+            display: block;
+            border: #e2e2e2 1px solid;
+            width: 198px;
+            height: 48px;
+            text-align: center;
+            line-height: 48px;
+            color: #FFF;
+            font-size: 16px;
+        }
+        #go_buy{
+            background: #3e3e3e;
+            margin-left: 10px;
+        }
+        #go_home{
+            background: #aeaeae;
+        }
+    }

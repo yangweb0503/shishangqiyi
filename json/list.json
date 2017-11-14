@@ -1,0 +1,190 @@
+[
+	{
+		"id": "0",
+		"pic": "http://img.essxd.com/201711/717483_16356752_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "腰部松紧穿着舒适，阔腿版型很帅气",
+		"namee": "Corduroy High Waist Wide Leg Pants",
+		"zheqian": "￥295",
+		"zhehou": " ----- ￥ 207",
+		"introduce": "★~★ 灯芯绒阔腿裤",
+		"img": [
+			"http://img.essxd.com/201711/717483_16356341_k1.jpg",
+			"http://img.essxd.com/201711/717483_16356342_k1.jpg",
+			"http://img.essxd.com/201711/717483_16356343_k1.jpg"
+		]
+		,
+		"color": [
+			"牙白色",
+			"粉红色",
+			"黑色",
+			"浅棕色"
+		],
+		"size": [
+			"M"
+		]
+	}, {
+		"id": "1",
+		"pic": "http://img.essxd.com/201609/D695513_m.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "混搭很赞的暖暖安哥拉山羊毛胸型吊带",
+		"namee": "Cropped Knit Bustier",
+		"zheqian": "￥157",
+		"zhehou": " ----- ￥ 110",
+		"introduce": "✿暖暖安哥拉山羊毛胸型吊带✿",
+		"img": [
+			"http://img.essxd.com/201609/D695513_x1.jpg",
+			"http://img.essxd.com/201609/D695513_x2.jpg",
+			"http://img.essxd.com/201609/D695513_x3.jpg"
+		]
+		,
+		"color": [
+			"墨绿色"
+		],
+		"size": [
+			"S",
+			"M",
+			"L"
+		]
+	}, {
+		"id": "2",
+		"pic": "http://img.essxd.com/201710/716195_16318690_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "穿上就很有女人味，令人着迷哦",
+		"namee": "Ruffle Hem Round Neck Tee",
+		"zheqian": "￥82",
+		"zhehou": " ----- ￥ 57",
+		"introduce": "★~★ 罗纹褶边T恤",
+		"img": [
+			"http://img.essxd.com/201710/716195_16319460_k1.jpg",
+			"http://img.essxd.com/201710/716195_16319461_k1.jpg",
+			"http://img.essxd.com/201710/716195_16319462_k1.jpg"
+		]
+		,
+		"color": [
+			"牙白色",
+			"海棠红",
+			"黑色",
+			"浅棕色"
+		],
+		"size": [
+			"M"
+		]
+	}, {
+		"id": "3",
+		"pic": "http://img.essxd.com/201708/713120_16231409_k3_3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "性价比很高！条纹图案罩衫",
+		"namee": "Striped Loose Fit Shirt",
+		"zheqian": "￥98",
+		"zhehou": " ----- ￥ 69",
+		"introduce": "✿简练条纹图案衬衫✿",
+		"img": [
+			"http://img.essxd.com/201708/713120_16231411_k1.jpg",
+			"http://img.essxd.com/201708/713120_16231412_k1.jpg",
+			"http://img.essxd.com/201708/713120_16231413_k1.jpg"
+		]
+		,
+		"color": [
+			"牙白色",
+			"红棕色",
+			"藏青色"
+		],
+		"size": [
+			"M",
+			"L"
+		]
+	}, {
+		"id": "4",
+		"pic": "http://img.essxd.com/201708/713927_16246924_k3_3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "最近天气穿正好的牛仔衬衫",
+		"namee": "Pocket Detailing Denim Shirts",
+		"zheqian": "￥198",
+		"zhehou": " ----- ￥ 139",
+		"introduce": "✿摩登基础牛仔衬衫✿",
+		"img": [
+			"http://img.essxd.com/201708/713927_16247496_k1.jpg",
+			"http://img.essxd.com/201708/713927_16247497_k1.jpg",
+			"http://img.essxd.com/201708/713927_16247498_k1.jpg"
+		]
+		,
+		"color": [
+			"淡青色",
+			"深青色"
+		],
+		"size": [
+			"M"
+		]
+	}, {
+		"id": "5",
+		"pic": "http://img.essxd.com/201710/717031_16346011_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "★S,M,L★ 加绒衬里冬天穿也不错",
+		"namee": "Cutting Hem Boots Jeans",
+		"zheqian": "￥227",
+		"zhehou": " ----- ￥ 159",
+		"introduce": "★~★ 拉绒修身喇叭牛仔裤",
+		"img": [
+			"http://img.essxd.com/201710/717031_16346049_k1.jpg",
+			"http://img.essxd.com/201710/717031_16346050_k1.jpg",
+			"http://img.essxd.com/201710/717031_16346051_k1.jpg"
+		]
+		,
+		"color": [
+			"靛青色"
+		],
+		"size": [
+			"S",
+			"M",
+			"L"
+		]
+	}, {
+		"id": "6",
+		"pic": "http://img.essxd.com/201711/717296_16356119_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "调节大小~简练的魅力",
+		"namee": "Uenven Wrap Midi Skirt",
+		"zheqian": "￥236",
+		"zhehou": " ----- ￥ 165",
+		"introduce": "✿格子图案围裹短裙✿",
+		"img": [
+			"http://img.essxd.com/201711/717296_16357326_k1.jpg",
+			"http://img.essxd.com/201711/717296_16357327_k1.jpg",
+			"http://img.essxd.com/201711/717296_16357328_k1.jpg"
+		]
+		,
+		"color": [
+			"姜黄色"
+		],
+		"size": [
+			"S",
+			"M"
+		]
+	}, {
+		"id": "7",
+		"pic": "http://img.essxd.com/201710/716243_16317067_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "优雅气质~♥ 清纯的短款连衣裙",
+		"namee": "Waist Strap Detailing Suede Mini Dress",
+		"zheqian": "￥265",
+		"zhehou": " ----- ￥ 188",
+		"introduce": "✿简洁魅力的麂皮绒连衣裙✿",
+		"img":[
+		"http://img.essxd.com/201710/716243_16317070_k1.jpg",
+		"http://img.essxd.com/201710/716243_16317071_k1.jpg",
+		"http://img.essxd.com/201710/716243_16317072_k1.jpg"
+		]
+		,
+		"color": [
+			"姜黄色",
+			"灰蓝色",
+			"黑色"
+		],
+		"size": [
+			"M"
+		]
+	}
+]
+
+
