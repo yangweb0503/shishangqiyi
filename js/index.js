@@ -58,16 +58,179 @@ $(".bottomImg").attr({src:data[19].bottomImg});
 			});
 		}
 	});
-	
-	if($.cookie("car")){
-		var obj = JSON.parse($.cookie("car"));
-		var nums = 0;
-		for(var i in obj){
-
-			nums += Number(obj[i][0]);
+	mians();
+	$("#mianshui a").click(function(){
+		if($("#mianshui input:checked")){
+			var a = "down";
+			$.cookie("mianshui",a,1);
 		}
-		$(".car_num").text(nums);
+		$("#mianshui").css({"display":"none"});
+	});
+	function mians(){
+		if($.cookie("mianshui")){
+			$("#mianshui").css({"display":"none"});
+		}else{
+			$("#mianshui").css({"display":"block"});
+		}
 	}
+	
+	
+	//  登录注册
+
+	loginTab();
+	function loginTab(){
+		if($.cookie("username")){           //     [账号，密码 ]
+			$("#login").html("我的账户");
+			$(".login_tip").css({"display":"none"});
+		}else{
+			$("#loginB").css({"display":"block"});
+		}
+		
+		$(".loginb").click(function(){
+			$("#loginB").css({"display":"block"});
+		})
+		
+		for(let i=0;i<$(".login_top li").length;i++){
+			$(".login_top li").eq(i).click(function(){
+
+				for(var j=0;j<$(".login_top li").length;j++){
+					$(".login_top li").eq(j).removeClass("style_login");
+				}
+				$(this).addClass("style_login");
+				
+				for(var k=0;k<$(".pages form").length;k++){
+					$(".pages form").eq(k).css({"display":"none"});
+					$(".pages form").eq(i).css({"display":"block"});
+				}
+			});
+		}
+		
+		$(".pop_login>a").click(function(){
+			$("#loginB").css({"display":"none"});
+		});
+		
+		var count1 = 0;
+		$(".email_input").change(function(){
+			var str1 = $(".email_input").val();
+			if(!isEmail(str1)){
+				alert("邮箱不正确！");
+				count1 = 1;
+			}else{
+				count1 = 0;
+			}
+			$(".email_input").focus();
+		});
+		
+		$("input[name='re_pass']").change(function(){
+			if($("input[name='re_pass']").val() != $("input[name='pass']").val()){
+				alert("两次密码不相同！");	
+				count1 = 1;
+			}else{
+				count1 = 0;
+			}
+			$("input[name='re_pass']").focus();
+		});
+		
+		$("input[name='username']").change(function(){
+			var str1 = $("input[name='username']").val();
+			if(!isUname(str1)){
+				alert("用户名格式不正确！");
+			}else{
+				count1 = 1;
+			}
+			$("input[name='username']").focus();
+		});
+		
+		$("input[name='cphone']").change(function(){
+			var str1 = $("input[name='cphone']").val();
+			if(!isPhoneNum(str1)){
+				alert("手机号码不正确！");
+				count1 = 1;
+			}else{
+				count1 = 0;
+			}
+			$("input[name='cphone']").focus();
+		});
+		
+		$(".reg_item span").text(suiM());
+		$(".reg_item span").click(function(){
+			$(this).text(suiM());
+		});
+		
+		$("input[name='code']").change(function(){
+			
+			if($("input[name='code']").val().toLowerCase() != $(".reg_item span").text().toLowerCase()){
+				alert("验证码不正确！");
+				count1 = 1;
+			}else{
+				count1 = 0;
+			}
+		});
+		
+		$(".reg_btn").click(function(){
+
+			if(count1 != 0 || $("input[name='code']").val() =="" || $("input[name='cphone']").val() == "" || $("input[name='username']").val() == "" || $("input[name='pass']").val() == "" || $("input[name='email']").val() == ""){
+				alert("请将信息填写完整！");
+			}else{
+//				console.log("成功");
+				$("#loginB").css({ "display": "none" });
+				var uname = $("input[name='username']").val();
+				var pas = $("input[name='pass']").val();
+				var objnameCookie = {uname:pas};
+				var str = JSON.stringify(objnameCookie);
+				$.cookie("username",str,7);
+				console.log($.cookie("username"));
+				$("#login").text("我的账户");
+			}
+		
+		
+		});
+	}
+	
+	function suiM(){
+		var arr = [0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+		var str = "";
+		var num = arr.length;
+		for(var i =0;i<4;i++){
+			str += arr[Math.floor(Math.random()*num)];
+		}
+		return str;
+	}
+	
+	    //  正则
+    function isUname(str) {
+	    var regUserName = /^([\w]|[\u2E80-\u9FFF]|[-_])+$/;
+	    return regUserName.test(str);
+    }
+    function isPsw(str) {
+        var regPsw = /^[\S]+$/;
+        return regPsw.test(str);
+     }
+     function isEmail(str) {
+         var regEmail = /^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/;
+	     return regEmail.test(str);
+     }
+     function isPhoneNum(str) {
+         var regPhoneNum = /^1[34578]\d{9}$/;
+         return regPhoneNum.test(str);
+     }
+
+	// 购物车|| 登录
+	
+	carlogin();
+	function carlogin(){
+		if($.cookie("car")){
+			var obj = JSON.parse($.cookie("car"));
+			var nums = 0;
+			for(var i in obj){
+				nums += Number(obj[i][0]);
+			}
+			$(".car_num").text(nums);
+		}
+		
+
+	}
+
 	
 
 	$("#rightAside_c .saoma a").hover(function() {
@@ -87,9 +250,7 @@ $(".bottomImg").attr({src:data[19].bottomImg});
 		}
 	});
 
-	$("#mianshui a").click(function() {
-		$("#mianshui").css({ "display": "none" });
-	});
+	
 
 	var contentHeight = $("#content").css("height");
 	$("#leftAside").css({ "height": contentHeight });
@@ -123,4 +284,12 @@ $(".bottomImg").attr({src:data[19].bottomImg});
 		var str = $("#content").css("height");
 		$("#leftAside").css({"height":str});
 	},(2000))
+	
+	
+	
+
+	
+	
+	
+	
 });

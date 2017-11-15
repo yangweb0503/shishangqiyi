@@ -12,8 +12,65 @@
 	</head>
 
 	<body>
+		<div id="loginB">
+			<div class="pop_login">
+				<a href="javascript:;" class="loginB_close"></a>
+				<ul class="login_top clearfix">
+					<li class="style_login">登录</li>
+					<li class="">注册</li>
+				</ul>
+				
+				<div class="pages">
+					<form class="login_page clearfix">
+						<div class="login_input">
+							<input type="text" placeholder="用户名"/>
+							<input type="password" placeholder="密码"/>
+						</div>
+						<a href="javascript:;" class="login_btn">登录</a>
+					</form>
+					<form class="reg_page">
+						<div class="reg_input">
+							<div class="reg_item">
+								<input type="text" name="email" placeholder="电子邮件" class="email_input"/>
+							</div>
+							<div class="reg_item clearfix">
+								<div>
+									<input type="password" name="pass" placeholder="您的密码"/>
+								</div>
+								<div>
+									<input type="password" name="re_pass" placeholder="再次输入您的密码"/>
+								</div>
+							</div>
+							<div class="reg_item">
+								<div>
+									<input type="text" name="username" placeholder="用户名"/>
+								</div>
+								<div>
+									<select name="sex">
+										<option value="">性别</option>
+										<option value="">女</option>
+										<option value="">男</option>
+									</select>
+								</div>
+							</div>
+							<div class="reg_item">
+								<div>
+									<input type="text" name="cphone" placeholder="手机号码"/>
+								</div>
+								<div class="clearfix">
+									<span></span>
+									<input type="text" name="code" maxlength="4" class="code" placeholder="验证码"/>
+								</div>			
+							</div>
+						</div>
+						<a href="javascript:;" class="reg_btn">注册</a>
+					</form>
+				</div>
+
+			</div>
+		</div>
 		<div id="header">
-			<h1 id="logo"><a href="" class="clearfix"></a></h1>
+			<h1 id="logo" class="loginb"><a href="" class="clearfix"></a></h1>
 			<ul id="top_nav" class="clearfix">
 				<li class="women">
 					<a href=""></a>
@@ -26,7 +83,7 @@
 				</li>
 			</ul>
 			<ul id="user_msg" class="clearfix">
-				<li id="login">
+				<li id="login" class="loginb">
 					<a href="javascript:;" class="login">登录</a><span> /</span>
 					<a href="javascript:;" class="reg">注册有礼</a>
 				</li>
@@ -58,7 +115,7 @@
 					</li>
 					<li class="rightLogin">
 						<ul>
-							<li class="border_b">
+							<li class="border_b loginb">
 								<a href="javascript:;" class="login">登录 /</a>
 								<a href="javascript:;" class="reg">注册</a>
 							</li>

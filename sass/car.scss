@@ -114,8 +114,7 @@
 
 
 .car_body {
-    li {
-        .car_no {
+    .car_no {
             text-align: center;
             font-weight: bold;
             font-size: 14px;
@@ -123,6 +122,8 @@
             height: 32px;
             line-height: 32px;
         }
+    li {
+        
         .goods_detail {
             input {
                 margin: 65px 55px 0 12px;

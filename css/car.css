@@ -97,7 +97,7 @@
   float: left;
   width: 160px; }
 
-.car_body li .car_no {
+.car_body .car_no {
   text-align: center;
   font-weight: bold;
   font-size: 14px;

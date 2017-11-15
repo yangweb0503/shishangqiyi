@@ -724,5 +724,163 @@ body {
 }
 
 
+.style_login{
+    background: #000;
+    color: #FFF;
+}
+
+#loginB{
+    width:100%;
+    height:100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 10;
+    display: none;
+    .pop_login{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -350px;
+        margin-top: -190px;
+        width: 580px;
+        background: #FFF;
+        padding: 60px 90px 60px 90px;
+        display: none;
+        display: block;
+        .loginB_close{
+            position: absolute;
+            display: block;
+            width: 36px;
+            height: 36px;
+            right: -16px;
+            top: -16px;
+            background: url(../img/close.png);
+        }
+        ul{
+            width: 520px;
+            border: #000 1px solid;
+            li{
+                float: left;
+                width: 260px;
+                background: #fff;
+                color: #000;
+                text-align: center;
+                height: 46px;
+                line-height: 46px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .style_login{
+                background: #000;
+                color: #FFF;
+            }
+        }
+        .pages{
+            .login_page{
+                margin-top: 10px;
+                width: 525px;
+                .login_input{
+                    float: left;
+                    width: 412px;
+                    margin-top: 18px;
+                    input{ 
+                        height: 32px;
+                        line-height: 32px;
+                        padding-left: 10px;
+                        border: #e2e2e2 1px solid;
+                        width: 388px;
+                        font-size: 14px;
+                        margin-bottom:26px;
+                    }
+                }
+                .login_btn{
+                    display: block;
+                    float:left;
+                    width: 110px;
+                    height: 52px;
+                    background-color: #000;
+                    text-align: center;
+                    font-size: 24px;
+                    color: #FFF;
+                    text-decoration: none;
+                    padding: 25px 0;
+                    margin-top: 18px;
+                }
+            }
+            .reg_page{
+                display: none;
+                margin-top:12px;
+                input[type=text],input[type=password]{
+                    height: 32px;
+                    line-height: 32px;
+                    padding-left: 10px;
+                    border: #e2e2e2 1px solid;
+                    font-size: 14px;
+                }   
+                .email_input{
+                    width:377px;
+                }
+                select{
+                    height: 34px;
+                    line-height: 24px;
+                    padding: 7px 0 7px 10px;
+                    border: #ccc 1px solid;
+                    width: 182px;
+                    font-size: 14px;
+                    color: #9c9c9c;
+                }
+                span{
+                    float: left;
+                    height: 34px;
+                    width: 68px;
+                    display: inline-block;    
+                    border: #ccc 1px solid;
+                    text-align: center;
+                    font-size:18px;
+                    background: blue;
+                    cursor: pointer;
+                }
+                .code{
+                    float: left;
+                    margin-left:10px;
+                    width:80px;
+                }
+                .reg_btn{
+                    display: block;
+                    float: left;
+                    width: 110px;
+                    height: 52px;
+                    background-color: #000;
+                    text-align: center;
+                    font-size: 24px;
+                    color: #FFF;
+                    text-decoration: none;
+                    padding: 33px 0;
+                    margin-top: 18px;
+                }
+                .reg_input{
+                    float: left;
+                    width: 412px;
+                    .reg_item{
+                    height: 42px;
+                    line-height: 40px;
+                    div{
+                        float: left;
+                        width: 50%;
+                        height: 42px;
+                        line-height: 40px;
+                        
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
 
 

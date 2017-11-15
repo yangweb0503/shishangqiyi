@@ -40,7 +40,7 @@ $(function() {
 
 		} else if(str > 9 && str < 80) { //  GIF子页面
 			$.getJSON("../json/bannerList.json", function(data) {
-				console.log("b");
+
 
 				for(var i = 0; i < data.length; i++) {
 					var num = data[i].id;
@@ -48,7 +48,7 @@ $(function() {
 						var obj = data[i];
 
 						$("title").text(obj.namec);
-						console.log(obj.pic);
+
 						$(".good_img img").attr({ src: obj.pic });
 						$(".good_title strong").text(obj.namee);
 						$(".good_title h1").text(obj.namec);
@@ -94,7 +94,7 @@ $(function() {
 	}
 
 	getid();
-	console.log("a");
+
 	$(".reduce").click(function() {
 		var num = $(".sell_content input").val() - 1;
 		if(num < 1) {
@@ -146,6 +146,8 @@ $(function() {
 			}
 		}
 		var gcolor = $("#gcolor").val(),gsize = $("#gsize").val(),gnum = $(".good_qtt input").val();
+		var gprice = $(".price_content span").text().slice(2);
+//		console.log(gprice);
 //		console.log(gcolor,gsize,gnum);
 
 		if(gflag) {
@@ -156,25 +158,29 @@ $(function() {
 				objCookie[proId].push(gnum);
 				objCookie[proId].push(gcolor);
 				objCookie[proId].push(gsize);
+				objCookie[proId].push(gprice);
+				
 			}else{
 				objCookie[proId][0] = gnum;
 				objCookie[proId][1] = gcolor;
 				objCookie[proId][2] = gsize;
+				objCookie[proId][3] = gprice;
 			}
-			console.log(objCookie);
+
 			var strCoolkie = JSON.stringify(objCookie);
 			
 			$.cookie("car",strCoolkie,30);
 			
-			console.log($.cookie("car"));
+
 			var objnum = JSON.parse($.cookie("car"));
 			
 			var goodsNum = 0;
 			for(var n in objnum){
-				console.log(objnum[n]);
+			
 				goodsNum += Number(objnum[n][0]); 
 			}
 			$(".car_num").text(goodsNum);
+			alert("添加成功！");
 		}
 	});
 
