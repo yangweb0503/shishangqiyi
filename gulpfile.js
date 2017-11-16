@@ -6,11 +6,16 @@ var browserSync = require('browser-sync').create(); //自动刷新
 var autoprefixer = require('gulp-autoprefixer');//自动添加css3浏览器前缀
 var changed = require('gulp-changed');//只操作有过修改的文件 对sass文件无效
 							
+							
+gulp.task('copy-html',function(){
+	return gulp.src('src/html/*.html').pipe(gulp.dest('dist/html'));
+});
+							
 //将所有html文件整理至dist文件夹下
 gulp.task('html',function(){
 	return gulp.src('src/**/*.html')//指定源文件路径，并进行文件匹配
-		.pipe(changed('dist')) // 对比文件是否有过改动（此处填写的路径和输出路径保持一致）
-		.pipe(gulp.dest('dist'));//输出路径
+		.pipe(changed('dist/html')) // 对比文件是否有过改动（此处填写的路径和输出路径保持一致）
+		.pipe(gulp.dest('dist/html'));//输出路径
 });
 
 //css预处理附加css3兼容前缀

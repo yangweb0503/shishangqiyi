@@ -1,0 +1,133 @@
+[
+	{
+		"id": "11",
+		"pic": "http://img.essxd.com/201710/716183_16317944_k3.gif",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "非常好看的菱形格针织马甲",
+		"namee": "Argyle Patterned Loose Fit Knit Vest",
+		"zheqian": "￥ 145",
+		"zhehou": " ----- ￥ 102",
+		"introduce": "✿菱形格图案针织马甲✿",
+		"img":[
+		"http://img.essxd.com/201710/716183_16316839_k1.jpg",
+		"http://img.essxd.com/201710/716183_16316840_k1.jpg",
+		"http://img.essxd.com/201710/716183_16316841_k1.jpg"
+		], 
+		"color": [
+			"灰色",
+			"海军蓝",
+			"红色"
+		],
+		"size": [
+			"M"
+		]
+	}, {
+		"id": "12",
+		"pic": "http://img.essxd.com/201710/717001_16344068_k3.gif",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "羊毛♥安哥拉山羊毛♥ 暖和终结者，轻松搭配",
+		"namee": "Angora Half Neck Dress",
+		"zheqian": "￥ 298",
+		"zhehou": " ----- ￥ 209",
+		"introduce": "★~★ 安哥拉山羊毛针织连衣裙",
+		"img":[
+		"http://img.essxd.com/201710/717001_16343540_k1.jpg",
+		"http://img.essxd.com/201710/717001_16343541_k1.jpg",
+		"http://img.essxd.com/201710/717001_16343542_k1.jpg"
+		],
+		"color": [
+			"天蓝色",
+			"乳白色",
+			"可可色"
+		],
+		"size": [
+			"M"
+		]		
+	}, {
+		"id": "13",
+		"pic": "http://img.essxd.com/201710/716582_16331503_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "打造甜美魅力♥♥",
+		"namee": "Coduroy Shrried Mini Dress",
+		"zheqian": "￥ 172",
+		"zhehou": " ----- ￥ 120",
+		"introduce": "",
+		"img": [
+		"http://img.essxd.com/201710/716582_16331314_k1.jpg",
+		"http://img.essxd.com/201710/716582_16331315_k1.jpg",
+		"http://img.essxd.com/201710/716582_16331316_k1.jpg"
+		],
+		"color": [
+			"酒红色",
+			"浅棕色"
+		],
+		"size": [
+			"M"
+		]		
+	}, {
+		"id": "17",
+		"pic": "http://img.essxd.com/201710/716586_16331513_k3.gif",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "参加聚会很适合~正式场合也很 推荐",
+		"namee": "Double Button Collar Mini Dress",
+		"zheqian": "￥ 299",
+		"zhehou": " ----- ￥ 209",
+		"introduce": "✿丝绒材质双排扣连衣裙✿",
+		"img":[
+				"http://img.essxd.com/201710/716586_16331370_k1.jpg",
+		"http://img.essxd.com/201710/716586_16331371_k1.jpg",
+		"http://img.essxd.com/201710/716586_16331372_k1.jpg"],
+
+		"color": [
+			"海军蓝",
+			"浅棕色"
+		],
+		"size": [
+			"M"
+		]		
+	}, {
+		"id": "18",
+		"pic": "http://img.essxd.com/201710/716248_16319584_k3.gif",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "★时尚起义款★ 宽松男友风~可以作为情侣款穿~",
+		"namee": "Runched Sleeve Hooded Bomber Jumper",
+		"zheqian": "￥ 355",
+		"zhehou": " ----- ￥ 249",
+		"introduce": "✿褶皱袖子设计的飞行员夹克✿",
+		"img":[
+		"http://img.essxd.com/201710/716248_16317184_k1.jpg",
+		"http://img.essxd.com/201710/716248_16317182_k1.jpg",
+		"http://img.essxd.com/201710/716248_16317183_k1.jpg"
+		],
+		
+		"color": [
+			"黑色",
+			"卡其色"
+		],
+		"size": [
+			"M"
+		]		
+	}, {
+		"id": "19",
+		"pic": "http://img.essxd.com/201710/716250_16317211_k3.jpg",
+		"type": "http://img3.essxd.com/comm/images/icon_sprite.png",
+		"namec": "F/W秋冬款格子图案",
+		"namee": "High-waist Checked Mini Skirt",
+		"zheqian": "￥ 110",
+		"zhehou": " ----- ￥ 77",
+		"introduce": "✿格子图案短裙✿",
+		"img":[
+"http://img.essxd.com/201710/716250_16317749_k1.jpg",
+"http://img.essxd.com/201710/716250_16317736_k1.jpg",
+"http://img.essxd.com/201710/716250_16317737_k1.jpg"
+		],
+
+		"color": [
+			"浅蓝色",
+			"棕色"
+		],
+		"size": [
+			"S","M"
+		]		
+	}
+]

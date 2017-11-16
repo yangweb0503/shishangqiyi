@@ -1,0 +1,91 @@
+
+#cnt{
+    table{
+        tr{ 
+            td{
+                padding-top: 1px;
+                padding-right: 1px;
+            }
+            .tdhover{
+                position:relative;
+                div{
+                    position:absolute;
+                    bottom:0;
+                    right:0;
+                    width:100%;
+                    background:url(../img/opacity.png);
+                    text-align: center;
+                    display: none;
+                    span,strike{
+                        display: block;
+                        color: #fff;
+                        font-size: 12px;
+                        line-height: 15px;
+                        padding:7px 5px 3px 5px;
+                    }
+                    strike{
+                        color: #33b0f0;
+                    }
+                }
+            }
+        }
+    }
+    .word{
+        margin-top: 50px;
+        a{
+            img{
+                float:left;
+            }            
+        }
+
+    }
+    
+    .list_title{
+        font-family: 'Exo 2',sans-serif;
+        color: #818181;
+        font-size: 22px;
+        letter-spacing: -0.2pt;
+        font-weight: 400;
+        text-align: center;
+        height: 25px;
+        line-height: 25px;
+        padding: 40px 0 8px 0;
+    }
+    .saleList{
+        width: 1146px;
+        margin-bottom: 40px;
+        li{
+            float: left;
+            width: 286px;
+            height: 440px;
+            padding: 0;
+            margin:22px 0;
+            img{
+                margin-bottom:14px;
+            }
+            a{
+                display: block;
+                width:100%;
+                margin-bottom:11px;
+                font-size:12px;
+                &:hover{
+                    color: #f36;;
+                    text-decoration: underline;
+                }
+            }
+            .namec{
+                color:#999;
+            }
+            .namee{
+                color: #000;
+                font-family: 'Exo 2',sans-serif;
+            }
+            span{
+                color: #fe7200;
+            }
+        }
+    }
+    
+    
+    
+}
